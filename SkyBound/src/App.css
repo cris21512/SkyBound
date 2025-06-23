@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand&display=swap');
+
+#root {
+  max-width: 100%;
+  --color-primary: #004599;
+  --color-secondary: #0d1b2a;
+  --color-dark: #020202;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: var(--color-dark);
+  font-size: 1.5rem;
+}
+h1{
+  font-family: 'Oranienbaum', sans-serif;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+span{
+  font-family: 'Edu SA Hand', cursive;
+  color: var(--color-primary);
+}

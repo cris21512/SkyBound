@@ -1,0 +1,14 @@
+.Aerolines-style{
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    background-color: black;
+}
+
+.Content-model{
+    max-width: 900px;
+    width: 100%;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+}

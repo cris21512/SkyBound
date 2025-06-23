@@ -4,7 +4,7 @@ useGLTF.preload("/public/plane.glb")
 
 const ModelPlane = ({scale}) => {
     
-    const { scene } = useGLTF("/public/plane.glb");
+    const { scene } = useGLTF("/plane.glb");
 
     return(
         <>

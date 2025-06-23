@@ -9,7 +9,7 @@ import { text } from "framer-motion/client";
 export default function FocusCardsDemo() {
   const cards = [
     {
-      title: "Class Silvier",
+      title: "Class Silver",
       src: Silver,
     },
     {

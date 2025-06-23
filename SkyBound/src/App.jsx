@@ -7,6 +7,7 @@ import Transition from './Components/Transition/Transition'
 import About from './Pages/About/About'
 import Header from './Pages/Header/Header'
 import Services from './Pages/Services/Services'
+import Aerolines from './Pages/Aerolines/Aerolines'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Header />
     <About />
     <Services />
+    <Aerolines />
     </>
   )
 }

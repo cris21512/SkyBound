@@ -45,9 +45,9 @@ const dummyContent = [
     description: (
       <>
         <p>
-Experience <span>affordable comfort</span> with our Silver Class. Designed for smart travelers who seek efficiency and ease, Silver offers ergonomic leather seats, complimentary snacks and drinks, a personal entertainment screen, and in-flight Wi-Fi.
+Experience <span>affordable comfort</span> with our <span>Silver Class</span>. Designed for smart travelers who seek <span>efficiency and ease</span>, Silver offers <span>ergonomic leather seats</span>, complimentary snacks and drinks, a personal entertainment screen, and <span>in flight Wi-Fi</span>. <br />
 
-Includes flexible baggage options and 24/7 customer support. Whether for business or leisure, Silver gets you there with Skybound’s trusted quality and safety.
+Includes <span>flexible baggage options</span> and <span>24/7 customer support</span>. Whether for business or leisure, <span>Silver gets you there with Skybound’s trusted quality and safety</span>.
         </p>
       </>
     ),
@@ -60,11 +60,9 @@ Includes flexible baggage options and 24/7 customer support. Whether for busines
     description: (
       <>
         <p>
-Step up to Gold Class for a superior journey. With 20% more legroom, wider reclining seats, welcome drinks, and upgraded gourmet meal selections, your comfort is guaranteed. Gold passengers enjoy expedited check-in, priority boarding, and additional carry-on space.
+Take your travel to the next level with <span>Gold Class</span>. Enjoy <span>20% more legroom</span>, <span>wider reclining seats</span>, <span>priority boarding</span>, and <span>enhanced gourmet meals</span>. Upon arrival, premium beverages and priority check-in await you.
 
-You’ll also get access to exclusive in-flight content and noise-canceling headphones for a truly immersive flight. Gold Class ensures your journey feels premium from start to finish.
-
-Priority. Prestige. Gold.
+Includes <span>extra cabin luggage space</span>, noise canceling headphones, <span>and exclusive content access</span>, ensuring a truly <span>immersive travel experience</span>.
         </p>
       </>
     ),
@@ -77,9 +75,11 @@ Priority. Prestige. Gold.
     description: (
       <>
         <p>
-Fly at the highest level of luxury with Platinum Class — where travel becomes a first-class lifestyle. Enjoy fully lie-flat seats in a private cabin setting, access to VIP lounges at all major airports, personalized service throughout your journey, and a curated menu of gourmet dishes prepared by award-winning chefs.
+Fly in ultimate luxury with <span>Platinum Class</span>, where <span>travel becomes a lifestyle</span>. Featuring <span>fully lie flat seats, private suites</span>, <span>access to VIP lounges</span>, <span>dedicated onboard service</span>, and a gourmet menu by award-winning chefs.
 
-Includes fast-track immigration, private check-in counters, extra baggage allowance, and noise-insulated cabins for complete peace. Every moment in Platinum is designed to exceed expectations.
+Enjoy <span>express immigration</span>, <span>private check-in</span>, <span>extra luggage allowance</span>, and soundproof cabins for total relaxation.
+
+Every moment in <span>Platinum</span> is crafted to <span>exceed your expectations</span>.
         </p>
       </>
     ),

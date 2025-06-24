@@ -1,6 +1,6 @@
 import { useGLTF } from "@react-three/drei";
 
-useGLTF.preload("/public/plane.glb")
+useGLTF.preload("/plane.glb")
 
 const ModelPlane = ({scale}) => {
     

@@ -22,7 +22,7 @@ export const MenuItem = ({
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-black" >
+        className="cursor-pointer text-amber-200 hover:opacity-[0.7] "  style={{color: 'var(--color-primary)', fontFamily: 'Poppins, sans-serif', fontWeight: 'lighter'}}>
         {item}
       </motion.p>
       {active !== null && (
@@ -37,7 +37,7 @@ export const MenuItem = ({
                 transition={transition}
                 // layoutId ensures smooth animation
                 layoutId="active"
-                className="bg-white dark:bg-black backdrop-blur-md rounded-2xl overflow-hidden border border-black/[0.8] dark:border-white/[0.2] shadow-xl">
+                className="bg-white dark:bg-blue-400 backdrop-blur-md rounded-2xl overflow-hidden border  dark:border-white/[0.2] shadow-xl">
                 <motion.div
                   // layout ensures smooth animation
                   layout
@@ -61,7 +61,7 @@ export const Menu = ({
     <nav
       // resets the state
       onMouseLeave={() => setActive(null)}
-      className="backdrop-blur-sm bg-black/20 rounded-full border-2 shadow-input flex justify-center space-x-18 px-8 py-6 " style={{fontFamily: 'Poppins, sans-serif', fontSize: '1.2rem', fontWeight: 'bold'}}>
+      className="backdrop-blur-sm bg-black/20 rounded-full border-2 shadow-input flex justify-center space-x-18 px-8 py-6 " style={{fontFamily: 'Poppins, sans-serif', fontSize: '0.8rem', fontWeight: 'bold', color: 'var(--color-primary)'}}>
       {children}
     </nav>
   );
@@ -82,7 +82,7 @@ export const ProductItem = ({
         alt={title}
         className="shrink-0 rounded-md shadow-2xl" />
       <div>
-        <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
+        <h4 className="text-xl font-bold mb-1 text-blue-300 dark:text-blue-400">
           {title}
         </h4>
         <p className="text-neutral-700 text-sm max-w-[10rem] dark:text-white">

@@ -50,8 +50,8 @@ const Loader = ({ placeholderSrc }) => {
       {placeholderSrc ? (
         <img
           src={placeholderSrc}
-          width={128}
-          height={128}
+          width={828}
+          height={828}
           style={
             { filter: "blur(8px)", borderRadius: 8 }
           }

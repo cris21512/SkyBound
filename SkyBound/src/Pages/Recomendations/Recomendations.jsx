@@ -8,10 +8,12 @@ import InfiniteMovingCardsDemo from '../../Components/components/infinite-moving
 const Recomendations = () => {
     return(
         <div className="Recomendations-style">
-            <h3 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
-            Join the waitlist
+            <div className="recomendations-center">
+            <h3 style={{fontSize: "5rem"}} className="relative z-10 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
+            Trusted by 12,500+ happy users
             </h3>
             <InfiniteMovingCardsDemo />
+            </div>
         </div>
     )
 }

@@ -13,7 +13,7 @@ const World = () => {
         <div className="World-style">
             <TextHoverEffectDemo />
             <div className="world-center">
-                <Canvas style={{ position:'relative', width:'1000px', }} >
+                <Canvas style={{ position:'relative', width:'1000px',borderRadius: '20rem' }} >
                     <Stage environment={"city"} intensity={0.6} >
                         <ModelEarth scale={6} />
                         <OrbitControls enableRotate={true} />

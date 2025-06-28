@@ -2,9 +2,18 @@
 import { useScroll, useTransform, motion } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export const Timeline = ({
   data
 }) => {
+    useEffect(() => {
+    AOS.init({
+      once: true, 
+    });
+  });
+
   const ref = useRef(null);
   const containerRef = useRef(null);
   const [height, setHeight] = useState(0);
@@ -29,11 +38,11 @@ export const Timeline = ({
       className="w-full bg-blue-200 md:px-10"
       ref={containerRef}>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h1 className="text-3xl md:text-5xl font-bold  mb-4">
+        <h1 className="text-3xl md:text-5xl font-bold  mb-4" data-aos="fade-up" data-aos-duration="600">
           Our flight path to excellence
         </h1>
         <p
-          className="text-neutral-700 dark:text-black text-sm md:text-base max-w-5xl">
+          className="text-neutral-700 dark:text-black text-sm md:text-base max-w-5xl" data-aos="fade-up" data-aos-duration="600">
           From a single route to global reach explore the key moments that shaped Skybound Airlines into the world-class airline it is today.
         </p>
       </div>

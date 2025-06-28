@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { use, useEffect } from "react";
 
 import Silvertwo from '../../assets/images/Silvertwo.jpg';
 import Goldtwo from '../../assets/images/Goldtwo.jpg';
@@ -8,7 +8,17 @@ import Platiniumtwo from '../../assets/images/Platiniumtwo.jpg';
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../ui/tracing-beam";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function TracingBeamDemo() {
+
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  })
+
   return (
     <TracingBeam className="px-6">
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
@@ -44,7 +54,7 @@ const dummyContent = [
     title: "Silver",
     description: (
       <>
-        <p>
+        <p data-aos="fade-up" data-aos-duration="600">
 Experience <span>affordable comfort</span> with our <span>Silver Class</span>. Designed for smart travelers who seek <span>efficiency and ease</span>, Silver offers <span>ergonomic leather seats</span>, complimentary snacks and drinks, a personal entertainment screen, and <span>in flight Wi-Fi</span>. <br />
 
 Includes <span>flexible baggage options</span> and <span>24/7 customer support</span>. Whether for business or leisure, <span>Silver gets you there with Skybound’s trusted quality and safety</span>.
@@ -59,7 +69,7 @@ Includes <span>flexible baggage options</span> and <span>24/7 customer support</
     title: "Gold",
     description: (
       <>
-        <p>
+        <p data-aos="fade-up" data-aos-duration="600">
 Take your travel to the next level with <span>Gold Class</span>. Enjoy <span>20% more legroom</span>, <span>wider reclining seats</span>, <span>priority boarding</span>, and <span>enhanced gourmet meals</span>. Upon arrival, premium beverages and priority check-in await you.
 
 Includes <span>extra cabin luggage space</span>, noise canceling headphones, <span>and exclusive content access</span>, ensuring a truly <span>immersive travel experience</span>.
@@ -74,7 +84,7 @@ Includes <span>extra cabin luggage space</span>, noise canceling headphones, <sp
     title: "Platinium",
     description: (
       <>
-        <p>
+        <p data-aos="fade-up" data-aos-duration="600">
 Fly in ultimate luxury with <span>Platinum Class</span>, where <span>travel becomes a lifestyle</span>. Featuring <span>fully lie flat seats, private suites</span>, <span>access to VIP lounges</span>, <span>dedicated onboard service</span>, and a gourmet menu by award-winning chefs.
 
 Enjoy <span>express immigration</span>, <span>private check-in</span>, <span>extra luggage allowance</span>, and soundproof cabins for total relaxation.

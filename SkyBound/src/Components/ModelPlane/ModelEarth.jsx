@@ -5,7 +5,7 @@ import { useFrame } from "@react-three/fiber";
 useGLTF.preload("/earth.glb"); // Asegúrate de que la ruta del modelo sea correcta
 
 const ModelEarth = ({ scale }) => {
-  const { scene } = useGLTF("/earth.glb"); // Carga el modelo de la Tierra
+  const { scene } = useGLTF("/earth-comprimido.glb"); // Carga el modelo de la Tierra
 
 
   // Esto hace que el modelo rote levemente en cada frame

@@ -1,0 +1,15 @@
+.h1-sparkles {
+    font-size: 7rem;
+}
+.h2-sparkles {
+    font-size: 2rem;
+}
+
+@media (min-width: 380px) and (max-width: 767px){
+    .h1-sparkles {
+        font-size: 5rem;
+    }
+    .h2-sparkles {
+        font-size: 1.5rem;
+    }
+}

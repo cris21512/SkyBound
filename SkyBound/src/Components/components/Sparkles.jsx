@@ -2,13 +2,15 @@
 import React from "react";
 import { SparklesCore } from "../ui/sparkles";
 import GradientText from "../../TextAnimations/GradientText/GradientText";
+import './Sparkles.css';
 
 export default function SparklesPreview() {
   return (
     <div
       className="h-[13rem] w-full bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1
-        style={{color: '#fff', textShadow: '0 0 10px rgba(0, 0, 0, 0.5)', fontSize: '7rem', fontWeight: 'bold'}}>
+      className="h1-sparkles"
+        style={{color: '#fff', textShadow: '0 0 10px rgba(0, 0, 0, 0.5)', fontWeight: 'bold'}}>
         SkyBound
       </h1>
       <div className="w-[50rem] h-40 relative">
@@ -21,7 +23,7 @@ export default function SparklesPreview() {
           className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[10px] w-1/4 blur-sm" />
         <div
           className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
-          <h1 style={{fontSize: "2rem"}}>
+          <h1 className="h2-sparkles">
             Your journey begins with Skybound.
           </h1>
       </div>

@@ -37,3 +37,23 @@
 .subtitle-model{
     font-size: 2.5rem;
 }
+
+@media (min-width: 380px) and (max-width: 767px){
+    .Content-model{
+        flex-direction: column;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .content-text{
+        max-width: 100%;
+    }
+
+    .title-model{
+        font-size: 2.5rem;
+    }
+
+    .subtitle-model{
+        font-size: 2rem;
+    }
+}

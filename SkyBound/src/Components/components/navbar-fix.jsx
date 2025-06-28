@@ -20,23 +20,15 @@ function Navbar({
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Languages">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-            <h1 style={{fontSize: '1.5rem'}}>EN</h1>
-            <h1 style={{fontSize: '1.5rem'}}>ES </h1>
+            <HoveredLink href="/Flights">Flights</HoveredLink>
+            <HoveredLink href="/Planes">Planes Available</HoveredLink>
+            <HoveredLink href="/classes">Different Classes</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Pricing">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
             <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
+            <HoveredLink href="/team">Family</HoveredLink>
             <HoveredLink href="/enterprise">Enterprise</HoveredLink>
           </div>
         </MenuItem>
